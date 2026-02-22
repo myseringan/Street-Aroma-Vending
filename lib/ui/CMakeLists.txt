@@ -1,0 +1,23 @@
+SET(SOURCES ui_comp_image1.c
+    ui_comp_image2.c
+    ui_comp.c
+    ui_Screen1.c
+    ui_Screen3.c
+    ui_Screen4.c
+    ui_Screen5.c
+    ui_Screen6.c
+    ui_Screen7.c
+    ui_Screen2.c
+    ui.c
+    ui_comp_hook.c
+    ui_helpers.c
+    ui_img_dolce_gabana_png.c
+    ui_img_tom_ford_taboco_vanile_png.c
+    ui_img_lanvin_png.c
+    ui_img_1419945142.c
+    ui_img_1139839843.c
+    ui_img_521946201.c
+    ui_img_1123770958.c
+    ui_img_625556972.c)
+
+add_library(ui ${SOURCES})
