@@ -30,6 +30,15 @@ This is a complete commercial product — firmware, payment backend, remote pric
 
 ---
 
+## Screenshots
+
+| Main Menu | Product Selected | Loading | QR Payment |
+|:---------:|:----------------:|:-------:|:----------:|
+| <img src="screenshots/main_menu.jpg" width="180"/> | <img src="screenshots/product_selected.jpg" width="180"/> | <img src="screenshots/loading.jpg" width="180"/> | <img src="screenshots/qr_payment.jpg" width="180"/> |
+| 4 products with live prices | Highlight on button press | Connecting to server | Payme QR code on screen |
+
+---
+
 ## System Architecture
 
 ```
@@ -131,8 +140,12 @@ Street-Aroma-Vending/
 ├── server/
 │   └── app.py                # Flask: Payme webhook + MQTT + prices API
 │
-├── ui/                        # LVGL UI assets (SquareLine Studio)
 ├── screenshots/
+│   ├── main_menu.jpg          # Main product selection screen
+│   ├── product_selected.jpg   # Highlighted product on button press
+│   ├── loading.jpg            # Loading spinner
+│   └── qr_payment.jpg         # Payme QR code screen
+│
 └── README.md
 ```
 
