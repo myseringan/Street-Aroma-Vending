@@ -23,10 +23,10 @@
 // MQTT
 #define MQTT_SERVER "broker.hivemq.com"
 #define MQTT_PORT 1883
-#define MQTT_TOPIC "payments/6903415b33df8ed4e617e6f7"
+#define MQTT_TOPIC "payments/"
 
 // Сервер
-#define SERVER_URL "https://texnokross.uz/perfume-api"
+#define SERVER_URL "/perfume-api"
 #define DEVICE_ID "perfume_001"
 
 // ==================== EXTERN ПЕРЕМЕННЫЕ ====================
